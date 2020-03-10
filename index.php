@@ -23,7 +23,7 @@ $appName = explode('.', $domain)[0];
 
     <body>
         <header class="navbar">
-            <a class="logo" href="#"><img src="/getting-started/logo_company_test.png" alt=""></a>
+            <a class="logo" href="#"><img src="/getting-started/logo-developers.png" alt=""></a>
             <nav>
                 <ul class="nav navbar-nav navbar-right">
                     <li> <a class="logo" href="#"><img src="/getting-started/mexican_flag.png" alt=""></a></li>
