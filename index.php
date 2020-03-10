@@ -247,7 +247,7 @@ $appName = explode('.', $domain)[0];
             </div>
 
             <hr>
-
+            <!--
             <div class="row">
                 <h3>Your Credentials</h3>
                 <div class="row-info col-sm-3 col-md-3">
@@ -267,6 +267,7 @@ $appName = explode('.', $domain)[0];
                     <?php echo $siteId; ?>
                 </div>
             </div>
+            -->
             <hr>
         </main>
     </body>
