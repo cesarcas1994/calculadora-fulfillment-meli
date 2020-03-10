@@ -43,8 +43,10 @@ $appName = explode('.', $domain)[0];
                 <h2>Official PHP SDK for Mercado Libre's API.</h2>
             </div>
         </div>
-
+        
         <main class="container">
+
+            <!-- 
             <h3>Hi, Developer!</h3>
             <p>This is a sample app, deployed to Heroku with Mercado Libre's PHP SDK. Feel free to use it as a base, to start building your awesome app!</p>
 
@@ -82,6 +84,7 @@ $appName = explode('.', $domain)[0];
                     your own <b>$site_id</b> before executing them.
                 </p>
             </div>
+            -->
             <hr>
             <div class="row">
                 <div class="col-sm-6 col-md-6">
