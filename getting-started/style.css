@@ -8,6 +8,13 @@ body {
     margin: 0;
 }
 
+#login_window {  
+  width: 20%;
+  background-color: white;
+  text-align: center;
+  line-height: 100px;
+}
+
 footer,
 header,
 main,

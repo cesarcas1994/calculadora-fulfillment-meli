@@ -37,10 +37,16 @@ $appName = explode('.', $domain)[0];
             </nav>
         </header>
 
+        <div id="login_window">
+          Esto es mi ventana
+        </div>
+
         <div class="header">
             <div>
-                <h1>Getting Started with Mercado Libre's PHP SDK</h1>
-                <h2>Official PHP SDK for Mercado Libre's API.</h2>
+                <h1>Nombre de la micro aplicacion con keyword fundamental</h1>
+                <p id="disclaimer">
+                <strong>Aviso Legal</strong>
+                La calculadora de ingresos y gastos de Logística de Amazon solo se debe usar como referencia para evaluar Logística de Amazon. Amazon no garantiza la exactitud de la información ni de los cálculos de la calculadora de ingresos y gastos de Logística de Amazon. Debe realizarse un análisis independiente de los resultados que arroje la calculadora de ingresos y gastos de Logística de Amazon para comprobar los resultados. Para obtener las tarifas y los costos actualizados, consulta el Acuerdo de soluciones empresariales de Amazon Services La nueva opción Logística de Amazon refleja tus tarifas actuales por vender en Amazon y las tarifas de Logística de Amazon.</p>
             </div>
         </div>
         
@@ -132,11 +138,13 @@ $appName = explode('.', $domain)[0];
                     ?>
 
                 </div>
+                <!-- 
                 <div class="col-sm-6 col-md-6">
                     <h3>Get site</h3>
                     <p>Make a simple GET to <a href="https://api.mercadolibre.com/sites">sites resource</a> with your <b>$site_id</b> to obtain information about a a site. Like id, name, currencies, categories, and other settings.</p>
                     <p><a class="btn" href="../examples/example_get.php">GET</a></p>
                 </div>
+                -->
             </div>
             <hr>
             <div class="row">
