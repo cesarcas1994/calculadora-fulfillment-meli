@@ -26,6 +26,7 @@ $appName = explode('.', $domain)[0];
             <a class="logo" href="#"><img src="/getting-started/logo_company_test.png" alt=""></a>
             <nav>
                 <ul class="nav navbar-nav navbar-right">
+                    <li> <a class="logo" href="#"><img src="/getting-started/mexican_flag.png" alt=""></a></li>
                     <li> <a class="logo" href="#"><img src="/getting-started/logo_mercadolibre.png" alt=""></a></li>
                     <!-- 
                     <li><a target="_blank" href="http://developers.mercadolibre.com/getting-started/">Getting Started</a></li>
