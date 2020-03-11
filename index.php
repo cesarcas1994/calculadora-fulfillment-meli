@@ -31,6 +31,8 @@ $appName = explode('.', $domain)[0];
         <script type="text/javascript" 
 
         src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+        <script src="dinamic-table.js"></script> 
     </head>
 
     <body>
@@ -276,8 +278,9 @@ $appName = explode('.', $domain)[0];
             <hr>
             
            
-
-            <table id="myTable" class="table table-striped" >  
+            <div class="table-responsive">
+    
+            <table id="myTable" class="display table" width="100%">  
                 <thead>  
                   <tr>  
                     <th>ENO</th>  
@@ -363,14 +366,10 @@ $appName = explode('.', $domain)[0];
                   </tr>  
                 </tbody>  
               </table>
-            
+            </div>
               
 
-              <script>
-                $(document).ready(function(){
-                    $('#myTable').dataTable();
-                });
-              </script>
+              
 
 
             <!--
