@@ -275,9 +275,9 @@ $appName = explode('.', $domain)[0];
 
             <hr>
             
-            <div class="table-responsive">
+           
 
-            <table id="myTable" class="display table" width="100%" >  
+            <table id="myTable" class="table table-striped" >  
                 <thead>  
                   <tr>  
                     <th>ENO</th>  
@@ -363,7 +363,7 @@ $appName = explode('.', $domain)[0];
                   </tr>  
                 </tbody>  
               </table>
-            </div>
+            
               
 
               <script>
